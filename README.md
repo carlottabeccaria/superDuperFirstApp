@@ -38,8 +38,8 @@ Questo progetto rappresenta un progetto di studio per imparare basi di **HTML**,
 - **Esercizio 1:** Creare una semplice homepage con HTML che abbia:
     - un intestazione con il titolo del sito
     - sotto un bel elenco puntato delle voci del menu della vostra app
-    - un contenitore principale che contiene una tabella con i dati che volete visuale
-    - un immagine banner pubblicitario
+    - un contenitore principale che contiene una tabella con i dati che volete visualizzare
+    - un'immagine banner pubblicitario
     - un motto del sito
 
 
