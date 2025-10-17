@@ -50,4 +50,8 @@ Questo progetto rappresenta un progetto di studio per imparare basi di **HTML**,
 - [W3Schools](https://www.w3schools.com/)  
 - [Html.it](https://www.html.it/guide/guida-html5/)  
 
+- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Joshwcomeau](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [FlexBox froggy](https://flexboxfroggy.com/)
+
 
