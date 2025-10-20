@@ -41,7 +41,16 @@ Questo progetto rappresenta un progetto di studio per imparare basi di **HTML**,
     - un contenitore principale che contiene una tabella con i dati che volete visualizzare
     - un'immagine banner pubblicitario
     - un motto del sito
-
+- **Esercizio 2:**
+    - aggiungere un form di inserimento
+    - fare layout con menu verticale a sinistra e contenuto che prende tutta la pagina.
+    - menu con i ul e li senza lo stile classico delle liste che sembrano voci di menu rettangolari con hover 
+    - banner sticky bottom 10px 
+    - usare i selettori più specifico possibile possibili 
+    - le tabelle tutte colorate per righe dispari, hover etc etc 
+    - il form deve stare in un contenitore con effetto card
+    - gli input devono essere tutti stondati
+    - gli input equidistanti ma che stanno sulla stessa riga finche si riesce (qualcuno ha detto flex?)
 
 
 ## Risorse utili
