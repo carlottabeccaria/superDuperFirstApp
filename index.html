@@ -3,22 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img\favicon.ico">
   <title>Punti Magici</title>
 </head>
 <body>
   <h1>Punti Magici</h1>
   <h2>Un punto alla volta!</h2>
-  <ul>
-    <li>Home</li>
-    <li>Punti e tecniche</li>
+  <div class="menu">
     <ul>
-      <li>Punti base</li>
-      <li>Punti avanzati</li>
+      <li class="active"><a>Home</a></li>
+      <li class="dropdown">
+        <a>Punti e tecniche</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a>Punti base</a></li>
+            <li><a>Punti avanzati</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a>Video Tutorial</a></li>
+      <li><a>Ispirazioni</a></li>
     </ul>
-    <li>Video Tutorial</li>
-    <li>Ispirazioni</li>
-  </ul>
-  <div>
+  </div>
+  <div class="table-container">
     <table>
       <thead>
         <tr>
@@ -90,7 +98,22 @@
       </tbody>
     </table>
   </div>
-  <div>
+  <form class="subscription-form">
+    <div>
+      <h3>Iscriviti alla nostra newsletter!</h3></div>
+
+      <div class="subscription-inputs">
+        <label for="name">Inserisci il tuo nome completo: </label>
+        <input type="text" name="name" id="name" placeholder="Mario Rossi" required />
+        <label for="email">Inserisci la tua email: </label>
+        <input type="email" name="email" id="email" placeholder="mariorossi@email.com" required />
+      </div>
+      <div>
+        <input type="submit" value="Iscriviti!" />
+      </div>
+</form>
+
+  <div class="banner">
     <img src="img/banner.png" alt="Banner pubblicitario">
   </div>
 </body>

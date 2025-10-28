@@ -1,0 +1,14 @@
+background: #F9F9F9
+header/footer: #CDB4DB
+testo principale: #333333
+testo secondario: #666666
+link/pulsanti: #5AA9E6
+link/pulsanti secondari e hover: #A2D2FF
+background card newsletter: #FFF1B8
+error/avvisi: #FF6392
+table: #FFAFCC, #BDE0FE
+backgroud menu: #CDB4DB
+testo voci di menu: #F9F9F9
+hover voci di menu: #A2D2FF
+voce attiva menu: #B084CC
+border menu: #FFAFCC
