@@ -1,0 +1,5 @@
+git checkout branch_to_merge
+git pull origin main
+git push origin branch_to_merge
+git checkout main
+git pull origin branch_to_merge 

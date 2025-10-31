@@ -52,6 +52,10 @@ Questo progetto rappresenta un progetto di studio per imparare basi di **HTML**,
     - gli input devono essere tutti stondati
     - gli input equidistanti ma che stanno sulla stessa riga finche si riesce (qualcuno ha detto flex?)
 
+- **Esercizio 3:**
+    - manipolare un elemento selezionato con getbyid aggiungo delle classi al click su un pulsante esterno che fa da toggle
+    - leggere il valore di due input a e b e stampare la somma in un terzo campo risultato
+
 
 ## Risorse utili
 

@@ -15,7 +15,7 @@
       <li class="active"><div class="menu-item"><span class="home"></span><a>Home</a></div>
       </li>
       <li class="dropdown">
-        <div class="menu-item">
+        <div class="menu-item" id="menu-punti">
           <a>Punti e tecniche</a><div class="arrow-down-wrapper"><span class="arrow-down"></span></div>
         </div>
         <div class="dropdown-content">
@@ -25,99 +25,106 @@
           </ul>
         </div>
       </li>
-      <li><div class="menu-item"><a>Video Tutorial</a></div></li>
-      <li><div class="menu-item"><a>Ispirazioni</a></div></li>
+      <li><div class="menu-item" id="menu-video"><a>Video Tutorial</a></div></li>
+      <li><div class="menu-item" id="menu-inspo"><a>Ispirazioni</a></div></li>
     </ul>
   </div>
-  <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>Nome del punto</th>
-          <th>Nome in inglese</th>
-          <th>Abbreviazione</th>
-          <th>Simbolo</th>
-          <th>Livello</th>
-          <th>Tutorial</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Catenella</th>
-          <td>Chain stitch</td>
-          <td>ch</td>
-          <td><img src="img\Catenella.png" alt="o"></td>  
-          <td>Base</td>
-          <td><div class="link-container"><a href="https://www.youtube.com/watch?v=XN3YTDAvAM8&list=PL94lFG36eKDa-YbnJO5LjTbRnRPZik8aR">Tutorial Catenella</a></div></td>
-        </tr>
-        <tr>
-          <th>Maglia bassa</th>
-          <td>Single crochet</td>
-          <td>sc</td>
-          <td><img src="img/PuntoBasso.png" alt="x"></td>  
-          <td>Base</td>
-          <td><div class="link-container"><a href="https://youtu.be/a3YzQ8iNZfo?si=ZxKWWqVu8URiYGQT">Tutorial Maglia bassa</a></div></td>
-        </tr>
-        <tr>
-          <th>Mezza maglia alta</th>
-          <td>Half double crochet</td>
-          <td>hdc</td>
-          <td><img src="img/MezzoPuntoAlto.png" alt="T"></td>  
-          <td>Base</td>
-          <td><div class="link-container"><a href="https://youtu.be/QkiEjFsxGgE?si=RWV26Zl2el4kcTT-">Tutorial Mezza maglia alta</a></div></td>
-        </tr>
-        <tr>
-          <th>Maglia alta</th>
-          <td>Double crochet</td>
-          <td>dc</td>
-          <td><img src="img/PuntoAlto.png" alt="T con una linea"></td>  
-          <td>Base</td>
-          <td><div class="link-container"><a href="https://youtu.be/nDmjoVNwEPA?si=u0bClz5WKGGNIM-l">Tutorial Maglia alta</a></div></td> 
-        </tr>
-        <tr>
-          <th>Maglia bassissima</th>
-          <td>Slip stitch</td>
-          <td>sl st</td>
-          <td><img src="img/PuntoBassissimo.png" alt="."></td>  
-          <td>Base</td>
-          <td><div class="link-container"><a href="https://youtu.be/r8x1qJhSKoI?si=p1fPN5OaHUlYlnBm">Tutorial Maglia bassissima</a></div></td> 
-        </tr>
-        <tr>
-          <th>Maglia alta doppia</th>
-          <td>Treble crochet</td>
-          <td>tr</td>
-          <td><img src="img/DoppioPuntoAlto.png" alt="T con due linee"></td>  
-          <td>Intermedio</td>
-          <td><div class="link-container"><a href="https://youtu.be/S7qBdJ7ddV4?si=ghAkoY3kbEvyGsX3">Tutorial Maglia alta doppia</a></div></td> 
-        </tr>
-        <tr>
-          <th>Maglia tripla alta</th>
-          <td>Treble double crochet</td>
-          <td>dtr</td>
-          <td><img src="img/PuntoTriploAlto.png" alt="T con tre linee"></td>  
-          <td>Intermedio</td>
-          <td><div class="link-container"><a href="https://youtu.be/NC4eOBhiPbs?si=aJM4WYT4pWBYv2t2">Tutorial Maglia tripla</a></div></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <form class="subscription-form">
-    <div>
-      <h3>Iscriviti alla nostra newsletter!</h3></div>
-
-      <div class="subscription-inputs">
-        <label for="name">Inserisci il tuo nome completo: </label>
-        <input type="text" name="name" id="name" placeholder="Mario Rossi" required />
-        <label for="email">Inserisci la tua email: </label>
-        <input type="email" name="email" id="email" placeholder="mariorossi@email.com" required />
-      </div>
+  <div class="page">
+    <div class="table-container" id="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome del punto</th>
+            <th>Nome in inglese</th>
+            <th>Abbreviazione</th>
+            <th>Simbolo</th>
+            <th>Livello</th>
+            <th>Tutorial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Catenella</th>
+            <td>Chain stitch</td>
+            <td>ch</td>
+            <td><img src="img\Catenella.png" alt="o"></td>  
+            <td>Base</td>
+            <td><div class="link-container"><a href="https://www.youtube.com/watch?v=XN3YTDAvAM8&list=PL94lFG36eKDa-YbnJO5LjTbRnRPZik8aR">Tutorial Catenella</a></div></td>
+          </tr>
+          <tr>
+            <th>Maglia bassa</th>
+            <td>Single crochet</td>
+            <td>sc</td>
+            <td><img src="img/PuntoBasso.png" alt="x"></td>  
+            <td>Base</td>
+            <td><div class="link-container"><a href="https://youtu.be/a3YzQ8iNZfo?si=ZxKWWqVu8URiYGQT">Tutorial Maglia bassa</a></div></td>
+          </tr>
+          <tr>
+            <th>Mezza maglia alta</th>
+            <td>Half double crochet</td>
+            <td>hdc</td>
+            <td><img src="img/MezzoPuntoAlto.png" alt="T"></td>  
+            <td>Base</td>
+            <td><div class="link-container"><a href="https://youtu.be/QkiEjFsxGgE?si=RWV26Zl2el4kcTT-">Tutorial Mezza maglia alta</a></div></td>
+          </tr>
+          <tr>
+            <th>Maglia alta</th>
+            <td>Double crochet</td>
+            <td>dc</td>
+            <td><img src="img/PuntoAlto.png" alt="T con una linea"></td>  
+            <td>Base</td>
+            <td><div class="link-container"><a href="https://youtu.be/nDmjoVNwEPA?si=u0bClz5WKGGNIM-l">Tutorial Maglia alta</a></div></td> 
+          </tr>
+          <tr>
+            <th>Maglia bassissima</th>
+            <td>Slip stitch</td>
+            <td>sl st</td>
+            <td><img src="img/PuntoBassissimo.png" alt="."></td>  
+            <td>Base</td>
+            <td><div class="link-container"><a href="https://youtu.be/r8x1qJhSKoI?si=p1fPN5OaHUlYlnBm">Tutorial Maglia bassissima</a></div></td> 
+          </tr>
+          <tr>
+            <th>Maglia alta doppia</th>
+            <td>Treble crochet</td>
+            <td>tr</td>
+            <td><img src="img/DoppioPuntoAlto.png" alt="T con due linee"></td>  
+            <td>Intermedio</td>
+            <td><div class="link-container"><a href="https://youtu.be/S7qBdJ7ddV4?si=ghAkoY3kbEvyGsX3">Tutorial Maglia alta doppia</a></div></td> 
+          </tr>
+          <tr>
+            <th>Maglia tripla alta</th>
+            <td>Treble double crochet</td>
+            <td>dtr</td>
+            <td><img src="img/PuntoTriploAlto.png" alt="T con tre linee"></td>  
+            <td>Intermedio</td>
+            <td><div class="link-container"><a href="https://youtu.be/NC4eOBhiPbs?si=aJM4WYT4pWBYv2t2">Tutorial Maglia tripla</a></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <form class="subscription-form" id="subscribe-card">
       <div>
-        <input type="submit" value="Iscriviti!" />
-      </div>
-</form>
-
+        <h3>Iscriviti alla nostra newsletter!</h3></div>
+        
+        <div class="subscription-inputs">
+          <label for="name">Inserisci il tuo nome completo: </label>
+          <input type="text" name="name" id="name" placeholder="Mario Rossi" required />
+          <label for="email">Inserisci la tua email: </label>
+          <input type="email" name="email" id="email" placeholder="mariorossi@email.com" required />
+        </div>
+        <div>
+          <button>Iscriviti!</button>
+        </div>
+      </form>
+    </div>
+    
+  </div>
   <div class="banner">
+    <div class="subscription-icon">
+      <button id="sub-btn"><img src="/img/mail.png" alt="subscribe"></button>
+    </div>
     <img src="img/banner.png" alt="Banner pubblicitario">
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
